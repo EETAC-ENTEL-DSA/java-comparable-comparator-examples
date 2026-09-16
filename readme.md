@@ -61,7 +61,6 @@ java-comparable-comparator-examples/
 │                   │   └── User.java
 │                   └── utils/
 │                       └── Utils.java
-├── java-comparable-comparator-examples.iml
 └── readme.md
 ```
 
@@ -69,21 +68,6 @@ java-comparable-comparator-examples/
 
 - Java JDK 8 or later
 - A Java IDE such as IntelliJ IDEA or VS Code with Java support
-
-## How to run
-
-From the project root, compile all Java files:
-
-```bash
-javac -d out $(find src -name "*.java")
-```
-
-Then run one of the examples:
-
-```bash
-java -cp out ArraySortingExample
-java -cp out UserSortingExample
-```
 
 ## Learning goals
 
